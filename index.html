@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="js/jquery-3.5.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <title>Index</title>
+</head>
+
+<body>
+  <div class="header">
+    <div class="container-fluid px-0">
+      <nav class="navbar navbar-expand-md navbar-light mynav">
+        <div class="logo">
+          <a href="index.html">
+            首頁
+          </a>
+        </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">首頁</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">關於公司</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="shop.html">商品商城</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="job.html">人力資源</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">聯絡我們</a>
+            </li>
+          </ul>
+          <div class="ml-auto">
+            <a href="signin.html" class="btn btn-outline-info">登入</a>
+            <a href="shopcart.html" class="btn btn-outline-info">購物車</a>
+            <a href="checkout.html" class="btn btn-outline-info">結帳</a>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </div>
+
+  <div class="carousel">
+    <div class="container-fluid px-0">
+      <div id="demo" class="carousel slide" data-ride="carousel">
+        <ul class="carousel-indicators">
+          <li data-target="#demo" data-slide-to="0" class="active"></li>
+          <li data-target="#demo" data-slide-to="1"></li>
+        </ul>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img alt="" class="slider1 w-100" />
+            <div class="carousel-caption text-info">
+              <h3>Los Angeles</h3>
+              <h6>We had such a great time in LA!</h6>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img alt="" class="slider2 w-100" />
+            <div class="carousel-caption">
+              <h3>Chicago</h3>
+              <h6>Thank you, Chicago!</h6>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="content">
+    <div class="container">
+      <div class="row mt-3">
+        <div class="col-md-12">
+          <h2><b>商品分類</b></h2>
+        </div>
+      </div>
+
+      <div class="row mt-3">
+        <div class="col-md-3">
+          <div class="card CardEffect radius">
+            <a href="" class="radius">
+              <img src="img/dogfood/dogfood1.jpg" alt="" class="w-100 radius-top" />
+              <div class="card-body bg-dark text-white radius-bottom">
+                <h4 class="card-title text-center">狗糧</h4>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card CardEffect radius">
+            <a href="" class="radius">
+              <img src="img/img1.jpg" alt="" class="w-100 radius-top" />
+              <div class="card-body bg-dark text-white radius-bottom">
+                <h4 class="card-title text-center">狗屋</h4>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card CardEffect radius">
+            <a href="" class="radius">
+              <img src="img/img2.jpg" alt="" class="w-100 radius-top" />
+              <div class="card-body bg-dark text-white radius-bottom">
+                <h4 class="card-title text-center">餵食器</h4>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card CardEffect radius">
+            <a href="" class="radius">
+              <img src="img/img3.jpg" alt="" class="w-100 radius-top" />
+              <div class="card-body bg-dark text-white radius-bottom">
+                <h4 class="card-title text-center">玩具</h4>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row mt-5">
+        <div class="col-md-12">
+          <h2><b>熱門商品</b></h2>
+        </div>
+      </div>
+
+      <div class="row mt-3">
+        <div class="col-md-3">
+          <div class="card">
+            <div class="img">
+              <img src="img/dogfood/dogfood1.jpg" alt="" class="w-100" />
+              <div class="hot">
+                <span>Hot</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <h4 class="card-title">DogFood-0001</h4>
+              <p class="crad-text">狗糧</p>
+              <h5 class="text-danger">
+                <small class="text-secondary">
+                  <del>NT$&nbsp;600</del>
+                </small>
+                NT$&nbsp;500
+              </h5>
+              <a href="DogFood-0001.html" class="btn btn-outline-primary btn-block">查看商品</a>
+              <button class="btn btn-outline-primary btn-block mycart-btn" data-title="DogFood-0001" data-price="500" data-img="dogfood1">加入購物車</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card">
+            <div class="img">
+              <img src="img/dogfood/dogfood2.jpg" alt="" class="w-100" />
+              <div class="hot">
+                <span>Hot</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <h4 class="card-title">DogFood-0002</h4>
+              <p class="crad-text">狗糧</p>
+              <h5 class="text-danger">
+                <small class="text-secondary">
+                  <del>NT$&nbsp;600</del>
+                </small>
+                NT$&nbsp;500
+              </h5>
+              <a href="DogFood-0002.html" class="btn btn-outline-primary btn-block">查看商品</a>
+              <button class="btn btn-outline-primary btn-block mycart-btn" data-title="DogFood-0002" data-price="500" data-img="dogfood2">加入購物車</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card">
+            <div class="img">
+              <img src="img/dogfood/dogfood3.jpg" alt="" class="w-100" />
+              <div class="hot">
+                <span>Hot</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <h4 class="card-title">DogFood-0003</h4>
+              <p class="crad-text">狗糧</p>
+              <h5 class="text-danger">
+                <small class="text-secondary">
+                  <del>NT$&nbsp;600</del>
+                </small>
+                NT$&nbsp;500
+              </h5>
+              <a href="DogFood-0003.html" class="btn btn-outline-primary btn-block">查看商品</a>
+              <button class="btn btn-outline-primary btn-block mycart-btn" data-title="DogFood-0003" data-price="500"  data-img="dogfood3">加入購物車</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card">
+              <img src="img/dogfood/dogfood4.jpg" alt="" class="w-100" />
+            <div class="card-body">
+              <h4 class="card-title">DogFood-0004</h4>
+              <p class="crad-text">狗糧</p>
+              <h5 class="text-danger">
+                <small class="text-secondary">
+                  <del>NT$&nbsp;600</del>
+                </small>
+                NT$&nbsp;500
+              </h5>
+              <a href="DogFood-0004.html" class="btn btn-outline-primary btn-block">查看商品</a>
+              <button class="btn btn-outline-primary btn-block mycart-btn" data-title="DogFood-0004" data-price="500" data-img="dogfood4">加入購物車</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mt-3">
+        <div class="col-md-3">
+          <div class="card">
+              <img src="img/dogfood/dogfood5.jpg" alt="" class="w-100" />
+            <div class="card-body">
+              <h4 class="card-title">DogFood-0005</h4>
+              <p class="crad-text">狗糧</p>
+              <h5 class="text-danger">
+                <small class="text-secondary">
+                  <del>NT$&nbsp;600</del>
+                </small>
+                NT$&nbsp;500
+              </h5>
+              <a href="DogFood-0005.html" class="btn btn-outline-primary btn-block">查看商品</a>
+              <button class="btn btn-outline-primary btn-block mycart-btn" data-title="DogFood-0005" data-price="500" data-img="dogfood5">加入購物車</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card">
+              <img src="img/dogfood/dogfood6.jpg" alt="" class="w-100" />
+            <div class="card-body">
+              <h4 class="card-title">DogFood-0006</h4>
+              <p class="crad-text">狗糧</p>
+              <h5 class="text-danger">
+                <small class="text-secondary">
+                  <del>NT$&nbsp;600</del>
+                </small>
+                NT$&nbsp;500
+              </h5>
+              <a href="DogFood-0006.html" class="btn btn-outline-primary btn-block">查看商品</a>
+              <button class="btn btn-outline-primary btn-block mycart-btn" data-title="DogFood-0006" data-price="500" data-img="dogfood6">加入購物車</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card">
+              <img src="img/dogfood/dogfood7.jpg" alt="" class="w-100" />
+            <div class="card-body">
+              <h4 class="card-title">DogFood-0007</h4>
+              <p class="crad-text">狗糧</p>
+              <h5 class="text-danger">
+                <small class="text-secondary">
+                  <del>NT$&nbsp;600</del>
+                </small>
+                NT$&nbsp;500
+              </h5>
+              <a href="DogFood-0007.html" class="btn btn-outline-primary btn-block">查看商品</a>
+              <button class="btn btn-outline-primary btn-block mycart-btn" data-title="DogFood-0007" data-price="500" data-img="dogfood7">加入購物車</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card">
+              <img src="img/dogfood/dogfood8.jpg" alt="" class="w-100" />
+            <div class="card-body">
+              <h4 class="card-title">DogFood-0008</h4>
+              <p class="crad-text">狗糧</p>
+              <h5 class="text-danger">
+                <small class="text-secondary">
+                  <del>NT$&nbsp;600</del>
+                </small>
+                NT$&nbsp;500
+              </h5>
+              <a href="DogFood-0008.html" class="btn btn-outline-primary btn-block">查看商品</a>
+              <button class="btn btn-outline-primary btn-block mycart-btn" data-title="DogFood-0008" data-price="500" data-img="dogfood8">加入購物車</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="container">
+        <div class="row mt-5">
+          <div class="col-md-12">
+            <h2><b>公司位置</b></h2>
+            <p>地址：112台北市北投區西安街一段281巷</p>
+          </div>
+        </div>
+        <div class="mt-5">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d676.6202377892556!2d121.51604718688576!3d25.11141765411697!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442ae929b38054d%3A0x592ebf464e53a452!2z6Ieq5by35pep5biC!5e0!3m2!1szh-TW!2stw!4v1609210254032!5m2!1szh-TW!2stw"
+            frameborder="0"
+            allowfullscreen=""
+            aria-hidden="false"
+            tabindex="0"
+            class="map"
+          ></iframe>
+        </div>
+      </div>
+    </div> -->
+
+  </div>
+
+  <div class="footer">
+    <div class="container-fluid bg-dark">
+      <div class="container mt-5 text-white">
+        <div class="row">
+          <div class="col-md-6 mt-3 mb-3 d-flex justify-content-center align-items-center">
+            <ul class="footer-menu">
+              <li><a href="index.html">首頁</a></li>
+              <li><a href="about.html">關於公司</a></li>
+              <li><a href="shop.html">商品商城</a></li>
+              <li><a href="job.html">人力資源</a></li>
+              <li><a href="contact.html">聯絡我們</a></li>
+            </ul>
+          </div>
+          <div class="col-md-6 mt-3 mb-3 text-center">
+            <div class="px-5">
+              <form action="">
+                <div class="form-group">
+                  <label for="email">請留下您的Email，未來不定期發送最新消息</label>
+                  <input type="email" class="form-control text-center" placeholder="Your email" id="email" />
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">
+                  送出
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-3">
+          <div class="col-md-12 text-center">
+            <p>Copyrights &copy; 2020 網頁前端設計班</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="js/mycart.js"></script>
+</body>
+
+</html>
